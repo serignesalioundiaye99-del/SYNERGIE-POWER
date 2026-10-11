@@ -1,0 +1,40 @@
+name: Tâche MOBI DEV
+description: Décrire une tâche produit, technique, documentaire ou d’équipe
+labels: ["triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Toute donnée sensible doit rester hors de cette issue. Utiliser le canal privé de SECURITY.md pour une vulnérabilité.
+  - type: input
+    id: owner
+    attributes:
+      label: Responsable
+      description: Personne responsable de la mise en œuvre et de la validation
+    validations:
+      required: true
+  - type: textarea
+    id: goal
+    attributes:
+      label: Objectif et périmètre
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Critères d’acceptation
+    validations:
+      required: true
+  - type: textarea
+    id: risks
+    attributes:
+      label: Données, permissions, risques et rollback
+    validations:
+      required: true
+  - type: textarea
+    id: ai
+    attributes:
+      label: Intervention IA éventuelle
+      description: Indiquer l’usage, la sortie vérifiée et la validation humaine, ou écrire « aucune »
+    validations:
+      required: true

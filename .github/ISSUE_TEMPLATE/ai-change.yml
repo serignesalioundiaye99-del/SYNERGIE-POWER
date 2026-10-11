@@ -1,0 +1,38 @@
+name: Intervention IA à documenter
+description: Déclarer une utilisation d’IA dans le produit ou le développement
+labels: ["documentation", "IA"]
+body:
+  - type: input
+    id: owner
+    attributes:
+      label: Responsable humain
+    validations:
+      required: true
+  - type: textarea
+    id: purpose
+    attributes:
+      label: Objectif de l’IA
+    validations:
+      required: true
+  - type: textarea
+    id: inputs
+    attributes:
+      label: Données et limites d’entrée
+      description: Ne jamais coller de données personnelles ou secrets
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: Sortie utilisée et vérification
+    validations:
+      required: true
+  - type: checkboxes
+    id: approval
+    attributes:
+      label: Validation
+      options:
+        - label: Une personne a vérifié la sortie avant utilisation
+          required: true
+        - label: Les limites, risques et solution de repli sont documentés
+          required: true
