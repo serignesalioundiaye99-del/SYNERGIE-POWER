@@ -1,3 +1,5 @@
+> **MOBI TECH / DIRECTIVE DG 11-11-2026 — PRÉVISION & PERFORMANCE IA (TRANSVERSE) :** appliquer à toute mission le [standard officiel prévision, performance, non-régression](https://github.com/serignesalioundiaye99-del/mobi-dev-governance/blob/main/policies/PREVISION-PERFORMANCE-IA-20261111.md). Ligne de base réelle, prévisions 24h–7j / 30j / 90j, risques anticipés, KPI avant/après, sécurité et non-régression, preuves LIVE, GO/NO-GO explicite. Aucun résultat ou score inventé (cible agent 9/10 uniquement si mesurée), aucune dépense nouvelle non autorisée, aucune levée des restrictions SEN QUOTIDIEN/SCRUTOR. Ce fichier n'exécute ni agent ni monitoring en arrière-plan.
+
 # Instructions permanentes pour les agents IA
 
 ## Protocole commun MSH — exécution jusqu’au résultat vérifiable
